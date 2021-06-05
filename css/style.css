@@ -1,0 +1,420 @@
+body{
+    background: #F3DFDE;
+    margin: 0;
+    min-width: 320px;
+}
+
+
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 10px 100px;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: inline;
+    list-style-type: none;
+    font-family: 'poppins';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin: 30px;
+}
+.links a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* offer */
+.offer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 150px 100px;
+    align-items: center;
+}
+.offer{
+    width: 100%;
+    background-image: url('../img/lap.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -247px;
+    background-size: 1000px;
+}
+.offer-text-style{
+    font-family: 'austina';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* about */
+.about{
+    padding: 0 100px;
+}
+.title{
+    font-family: 'austina';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 107px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 50px ;
+}
+.about-text{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-info-style{
+    display: grid;
+    gap: 1rem;
+}
+.about-info-style a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    margin-left: 20px;
+}
+.location{
+    margin-right: 15px;
+}
+.about{
+    background-image: url('../img/lap-op.png');
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: 550px;
+}
+
+/* menu */
+/* meal */
+.menu{
+    padding: 150px 100px 100px 100px;
+}
+.meals{
+    display: flex;
+    justify-content: center;
+}
+.meals ul{
+    list-style-type: none;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
+.meals-pizza{
+    padding-left: 350px;
+}
+/* drinks */
+.drinks ul{
+    list-style-type: none;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
+.drinks{
+    display: flex;
+    justify-content: center;
+}
+.drinks-name{
+    padding-left: 350px;
+}
+
+/* book a table */
+.booking{
+    padding: 0 100px;
+}
+.contact-form{
+    display: flex;
+    max-width: 550px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.info-section{
+    display: flex;
+    flex-direction: column;
+}
+.name-section{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    background-color: #fff;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px;
+    padding: 7px;
+}
+.last-name{
+    width: 100%;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+    border-color: transparent;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    background-color: #F5B1AE;
+    padding: 10px 40px;
+    margin: 0 auto;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.form-button:hover{
+    background-color: #f78c86;
+    transition: 0.3s ease-in;
+}
+.for-img{
+    background-image: url('../img/lap-op.png');
+    background-repeat: no-repeat;
+}
+
+/* thank */
+.thank{
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/pasta-thank.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding: 0 100px;
+}
+.thank-you{
+    font-family: 'austina';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 53px;
+    color: #000;
+}
+
+
+/* smooth offer text */
+#smooth-offer-text .new{opacity: 0;
+    font-family: 'austina';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 160px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#smooth-offer-text .div_opacity{
+    -webkit-transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -ms-transition: opacity .1s ease-in-out;
+    -o-transition: opacity .1s ease-in-out;
+    transition: opacity .1s ease-in-out;
+    opacity: 1;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins-Light.woff2') format('woff2'),
+         url('../fonts/Poppins-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'austina';
+    src: url('../fonts/AustinaCapittonRegular.woff2') format('woff2'),
+         url('../fonts/AustinaCapittonRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (min-width: 2000px){
+    .header{
+        padding: 50px 200px 10px 200px;
+    }
+    .links{
+        font-size: 45px;
+    }
+    .offer-section,
+    .about,
+    .menu{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .title{
+        font-size: 150px;
+    }
+    .thank-you{
+        font-size: 100px;
+    }
+    .contact-section{  
+        justify-content: center;
+    }
+    .meals-pizza,
+    .drinks-name{
+        padding-left: 500px;
+    }
+    .menu-items li{
+        font-size: 35px;
+        margin: 20px;
+    }
+    .contact-form{
+        min-width: 1000px;
+    }
+    input{
+        font-size: 40px;
+    }
+    .form-button{
+        font-size: 40px;
+        padding: 30px 60px;
+    }
+    #smooth-offer-text .new {
+        font-size: 200px;
+    }
+}
+@media screen and (max-width: 1235px){
+    .offer-img-style{
+        max-width: 400px;
+    }
+    .offer{
+        background-size: 700px;
+    }
+}
+@media screen and (max-width: 1113px){
+    .menu img{
+        max-width: 200px;
+    }
+}
+@media screen and (max-width: 1025px){
+    .menu img{
+        display: none;
+    }
+    .drinks-name{
+        padding: 0;
+    }
+    .meals-name ul,
+    .drinks-name ul{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 860px){
+    .about-img-style{
+        display: none;
+    }
+    .contact-section{
+        justify-content: center
+    }
+    .navigation{
+        display: none;
+    }
+    .header{  
+        justify-content: center
+    }
+}
+@media screen and (max-width: 768px){
+    .offer-img-style{
+        display: none;
+    }
+    .offer-section{
+        text-align: center;
+    }
+    .about-text{
+        font-size: 30px;
+    }
+    .links{
+        font-size: 20px;
+    }
+    .logo-img{
+        max-width: 60px;
+    }
+    
+    .contact-section{
+        justify-content: center
+    }
+    .thank{
+        background: none;
+    }
+    .name-section input{
+        width: 100%;
+        font-size: 15px;
+    }
+    .info-section input{
+        font-size: 15px;
+    }
+    .offer-section,
+    .about,
+    .menu,
+    .booking {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .tel-img,
+    .email-img{
+        display: none;
+    }
+    .location img{
+        display: none;
+    }
+    #smooth-offer-text .new {
+        font-size: 85px;
+    }
+    .title{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 425px){
+    .about-text{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    .about-info-style a{
+        font-size: 20px;
+    }
+
+    .thank-you{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 375px){
+    #smooth-offer-text .new {
+        font-size: 70px;
+    }
+    .menu-items li{
+        font-size: 20px;
+    }
+    .offer-section,
+    .about,
+    .menu,
+    .booking {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}

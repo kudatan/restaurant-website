@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/lap.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">    <title>Your Restaurant</title>
+</head>
+<body>
+    <div class="main">
+<!-- offer -->
+        <div class="offer">
+            <div class="header">
+                <div class="logo">
+                    <img class="logo-img" src="img/ravioli.png" alt="logo">
+                </div>
+                <div class="navigation">
+                    <div class="menu-burger__header">
+                        <span></span>
+                    </div>
+                    <nav class="nav">
+                        <ul class="menu-li">
+                            <li class="links">
+                                <a href="#about">about</a>
+                            </li>
+                            <li class="links">
+                                <a href="#menu">menu</a>
+                            </li>
+                            <li class="links">
+                                <a href="#booking">booking</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="offer-section">
+                <div id="smooth-offer-text" class="offer-text">
+                    <h1 class="offer-text-style">
+                        I’ts me - Italian food
+                    </h1>
+                </div>
+                <div class="offer-img">
+                    <img class="offer-img-style" src="img/pasta.png" alt="pasta">
+                </div>
+            </div>
+        </div>
+<!-- about -->
+        <div class="about" id="about">
+            <h2 class="title">About</h2>
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia nibh nec metus imperdiet, imperdiet suscipit augue pretium. Integer aliquet a mi quis tristique. Donec rutrum felis in elementum laoreet.</p>
+            <div class="contact-section">
+                <div class="about-img">
+                    <img class="about-img-style" src="img/minestrone.png" alt="minestrone">
+                </div>
+                <div class="about-info-style">
+                    <div class="tel">
+                        <img class="tel-img" src="img/tel.png">
+                        <a class="tel-text" href="tel:+380999999999">+380999999999</a>
+                    </div>
+                    <div class="email">
+                        <img class="email-img" src="img/mail.png">
+                        <a class="email-text" href="mailto:food@gmail.com">food@gmail.com</a>
+                    </div>
+                    <div class="location">
+                        <img class="location" src="img/location.png">
+                        <a class="location-text">Kiev, Obolon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- menu -->
+        <div class="menu" id="menu">
+            <div class="menu-items">
+                <h2 class="title">Menu</h2>
+                <div class="meals">
+                    <div class="meals-name">
+                        <ul>
+                            <li class="meal">
+                                Lorem ipsum
+                            </li>
+                            <li class="meal">
+                                Lorem ipsum
+                            </li>
+                            <li class="meal">
+                                Lorem ipsum
+                            </li>
+                            <li class="meal">
+                                Lorem ipsum
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="meals-price">
+                        <ul>
+                            <li class="price">
+                                34$
+                            </li>
+                            <li class="price">
+                                44$
+                            </li>
+                            <li class="price">
+                                50$
+                            </li>
+                            <li class="price">
+                                20$
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="meals-pizza" src="img/pizza.png" alt="pizza">
+                </div>
+                <div class="drinks">
+                    <img class="drink-img" src="img/drink.png" alt="pizza">
+                    <div class="drinks-name">
+                        <ul>
+                            <li class="drink">
+                                Lorem ipsum
+                            </li>
+                            <li class="drink">
+                                Lorem ipsum
+                            </li>
+                            <li class="drink">
+                                Lorem ipsum
+                            </li>
+                            <li class="drink">
+                                Lorem ipsum
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="drinks-price">
+                        <ul>
+                            <li class="price">
+                                35$
+                            </li>
+                            <li class="price">
+                                5$
+                            </li>
+                            <li class="price">
+                                15$
+                            </li>
+                            <li class="price">
+                                10$
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- booking -->
+        <div class="for-img">
+            <div class="booking" id="booking">
+                <h2 class="title">Book a Table</h2>
+                <form action="#" id="form" onsubmit="javascript:return (validate('form','email') || validate_tel('form','tel'))">
+                    <div class="contact-form">
+                        <div class="name-section">
+                            <input type="text" name="firstname" placeholder="First name">
+                            <input type="text" name="lasttname" placeholder="Last name" class="last-name">
+                        </div>
+                        <div class="info-section">
+                            <input type="text" name="email" id="email" placeholder="Your email">
+                            <input type="tel" name="phone" id="tel" placeholder="Your phone number">
+                        </div>
+                        <button id="button" class="form-button">Call Me</button>
+                    </div>
+                </form>
+            </div>
+    <!-- thank you section -->
+            <div class="thank">
+                <h2 class="thank-you">Thank you :)</h2>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
